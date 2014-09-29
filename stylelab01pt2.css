@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,800);
+ body {
+    background-color: white;
+}
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    color: black;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    overflow: auto;
+}
+.column {
+    border: 3px;
+    border-color: black;
+    float: left;
+    padding: 10px;
+    position: relative;
+    width: 33%;
+}
+.boxes label, .boxes input {
+    display: block;
+}
